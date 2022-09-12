@@ -1,0 +1,155 @@
+
+body {
+	background-color: #87B6A7;
+    color: #rgb(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 {
+	color: #3D180B;
+    font-family: 'Corben', cursive;
+    font-weight: 200;
+    letter-spacing: 12px;
+    font-size: 42px;
+ }
+
+h2 {
+	color: #F79F79;
+	font-weight: 450;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+ }
+
+ h3 {
+	font-weight: bold;
+	text-decoration: none;
+	font-size:18px;
+ }
+
+	
+a  {
+	text-decoration: none;
+	color: #3D180B;
+	font-size:18px;
+}
+
+a:hover {
+	color: #F79F79
+}
+
+.text-justify {
+	text-align: justify;
+	
+}
+
+.img-bordered{ 
+	border: 6px solid #F79F79
+ }
+
+.img-circle{
+	border-radius: 50%
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+/*custome design with class*/
+
+.container{ 
+	width: 700px;
+	margin: 40px auto;
+ }
+
+@media(max-width: 960px){
+	.container{
+		width: 700px
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 400px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 200px;
+	}
+}
+
+ .card-white{
+ 	background-color: white;
+ 	padding: 30px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0.1);
+ 	border-radius: 10px;
+ 	margin: 20px -75px;
+ 	text-align: center;
+ }
+ }
+.btn-brown{
+	background-color: #3D180B;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+a i{
+	font-size: 60px;
+}
+.btn-link{
+	font-size: 18px;
+	font-weight: 400;
+	color: #3D180B;
+	text-decoration-line: underline;
+}
+
+.contact{
+	text-align: center;
+	font-weight: 700;
+	text-decoration-line: underline;
+}
+.contact:hover { 
+	color: #F79F79;
+}
+
+.underline {
+	text-decoration-line: underline;
+	font-weight: 500;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.year{
+	text-decoration-line: underline;
+	font-weight: 500;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pictures{
+	padding-left: 0px;
+}
+.img-rounded{
+	border-radius: 10%;
+}
+.img-with-text {
+    text-align: justify;
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*deisgn adjustements*/
+
+#introduction p {
+	margin-bottom: 40px
+}
+
+/* a little about me */
+code{
+	text-decoration-line: underline;
+	font-weight: 500;
+	width: fit-content;
+	font-family: 'Quicksand', sans-serif;
+}
+
