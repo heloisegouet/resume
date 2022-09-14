@@ -147,9 +147,99 @@ a i{
 
 /* a little about me */
 code{
-	text-decoration-line: underline;
+	font-style: italic;
 	font-weight: 500;
 	width: fit-content;
 	font-family: 'Quicksand', sans-serif;
 }
+
+/*pop up*/
+.box{
+	width: 320px;
+	margin: 2rem auto;
+	padding-top: 10rem;
+	padding: 2.5rem;
+	border-radius: 20px/50px;
+	text-align: center;
+}
+
+.button{
+	font-size: 1.3rem;
+	padding: 1rem;
+	color: #fff;
+	border: 2px solid #3D180B;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	background: rgba(61, 24, 11,0.3);
+	transition: all 0.3s ease-out;
+}
+
+.button:hover{
+	background:#3D180B;
+	color:#F79F79;
+}
+
+.overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity .4s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target{
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup{
+	margin: 6rem auto;
+	padding: 2rem;
+	background: #fff;
+	border-radius: 5px;
+	width: 40%;
+	position: relative;
+	transition: all 0.4s ease-in-out;
+}
+
+.popup .cross{
+	position: absolute;
+	top: 1rem;
+	right: 1.5rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+
+/*contact btn*/
+
+.contactme{
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 1rem;
+	padding-top: 10px;
+	color: #fff;
+	border: 2px solid #3D180B;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	background: rgba(61, 24, 11,0.3);
+	width: 80px;
+	height: 20px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
 
